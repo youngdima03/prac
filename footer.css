@@ -1,0 +1,130 @@
+.main-contact {
+    padding: 40px 80px;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.cont-cont {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont-input div {
+    margin: 15px 0;
+}
+
+.cont-input input {
+    height: 35px;
+    border-color: rgb(214, 214, 214);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.mess {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.message-btn {
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+.message-btn:hover {
+    background-color: lightgray;
+    color: black;
+    border-style: none;
+}
+
+.footer-up {
+    display: flex;
+    background-color: rgb(153, 153, 153);
+    padding: 20px 10px;
+}
+
+.foot {
+    width: 33.3333%;
+    padding: 5px;
+    margin: 5px 15px;
+}
+
+.foot h3 {
+    margin: 30px 0;
+}
+
+.blog {
+    font-size: 16px;
+    margin: 20px;
+}
+
+.blog img {
+    width: 50px;
+    cursor: pointer;
+    float: left;
+    margin-right: 15px;
+}
+
+.blog span:last-child {
+    font-size: 12px;
+}
+
+.foot:nth-child(3) {
+    margin: 0 10px;
+}
+
+.tags span {
+    background-color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+    padding: 3px;
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 0;
+    position: relative;
+}
+
+.tags span:hover {
+    background-color: black;
+    width: 75px;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    transition: width 0.8s, height 0.8s;
+}
+
+.footer-down {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer-down a {
+    color: white;
+}
+
+.footer-down a:hover {
+    color: gray;
+}

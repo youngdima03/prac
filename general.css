@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    max-width: 1600px;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+    border-width: 1px;
+    border-color: rgb(189, 189, 189);
+    border-style: solid;
+    position: fixed;
+    font-size: 15px;
+    bottom: 15px;
+    right: 15px;
+    z-index: 300;
+    background-color: white;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.btn:hover {
+    background-color: rgb(138, 138, 138);
+    color: white;
+}
+
+
+.btn:active {
+    width: 38px;
+    height: 38px;
+    bottom: 13px;
+    right: 13px;
+}
+
+.showUp {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+h3 {
+    margin-top: 30px;
+}
+.tablecover {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.table {
+    width: 100%;
+    margin: 0 7px;
+    opacity: 0.6;
+}
+
+.table:hover {
+    opacity: 1;
+}
+
+.table ul {
+    margin: 0;
+    padding: 0;
+}
+
+.table .title {
+    background-color: black;
+    color: white;
+    border-style: none;
+    height: 60px;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.table li {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+}
+
+.pay h3 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.pay span {
+    font-size: 14px;
+}
+
+.table .sign-btn {
+    background-color: rgb(226, 226, 226);
+}
+
+.sign-btn button {
+    background-color: white;
+    border-style: none;
+    font-size: 15px;
+    padding: 14px 24px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.sign-btn button:hover {
+    background-color: rgb(184, 184, 184);
+}

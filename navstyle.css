@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    top: 70px;
+    bottom: 0;
+    align-items: center;
+    width: 300px;
+    color: gray;
+}
+
+nav .name {
+    margin-bottom: 90px;
+}
+
+nav .menu {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu div {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.menu div:hover {
+    background-color: rgb(204, 204, 204);
+    color: black;
+}
+
+.menu a {
+    text-decoration: none;
+    color: gray;
+}
